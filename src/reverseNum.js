@@ -4,7 +4,7 @@ function reverseNumber(num) {
     // Loop until the original number becomes zero
     while (num > 0) {
     // Get the last digit of the original number using the modulo operator
-    let lastDigit = num % 10;
+    let lastDigit = num / 10;
     // Add the last digit to the reversed number after multiplying it by 10
     reversed = reversed * 10 + lastDigit;
     // Remove the last digit of the original number using the floor division operator
