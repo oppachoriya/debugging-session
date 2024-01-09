@@ -14,4 +14,4 @@ function reverseNumber(num) {
     return reversed;
 }
 
-console.log(reverseNumber(1002));
+console.log(reverseNumber(1002)); // expected 2001
